@@ -1,0 +1,134 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "AdditionalTools/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/AdditionalTools.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AdditionalTools.dll": {}
+        }
+      },
+      "Registration/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "AdditionalTools": "1.0.0",
+          "VehicleSpace": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Registration.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Registration.dll": {}
+        }
+      },
+      "VehicleSpace/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "AdditionalTools": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/VehicleSpace.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VehicleSpace.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AdditionalTools/1.0.0": {
+      "type": "project",
+      "path": "../AdditionalTools/AdditionalTools.csproj",
+      "msbuildProject": "../AdditionalTools/AdditionalTools.csproj"
+    },
+    "Registration/1.0.0": {
+      "type": "project",
+      "path": "../Registration/Registration.csproj",
+      "msbuildProject": "../Registration/Registration.csproj"
+    },
+    "VehicleSpace/1.0.0": {
+      "type": "project",
+      "path": "../VehicleSpace/VehicleSpace.csproj",
+      "msbuildProject": "../VehicleSpace/VehicleSpace.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "AdditionalTools >= 1.0.0",
+      "Registration >= 1.0.0",
+      "VehicleSpace >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/Users/eljav04/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/eljav04/Desktop/Cybernetics Backend/Home Tasks/Lesson_46_HT/Lesson_46_HT/Lesson_46_HT.csproj",
+      "projectName": "Lesson_46_HT",
+      "projectPath": "/Users/eljav04/Desktop/Cybernetics Backend/Home Tasks/Lesson_46_HT/Lesson_46_HT/Lesson_46_HT.csproj",
+      "packagesPath": "/Users/eljav04/.nuget/packages/",
+      "outputPath": "/Users/eljav04/Desktop/Cybernetics Backend/Home Tasks/Lesson_46_HT/Lesson_46_HT/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/eljav04/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {
+            "/Users/eljav04/Desktop/Cybernetics Backend/Home Tasks/Lesson_46_HT/AdditionalTools/AdditionalTools.csproj": {
+              "projectPath": "/Users/eljav04/Desktop/Cybernetics Backend/Home Tasks/Lesson_46_HT/AdditionalTools/AdditionalTools.csproj"
+            },
+            "/Users/eljav04/Desktop/Cybernetics Backend/Home Tasks/Lesson_46_HT/Registration/Registration.csproj": {
+              "projectPath": "/Users/eljav04/Desktop/Cybernetics Backend/Home Tasks/Lesson_46_HT/Registration/Registration.csproj"
+            },
+            "/Users/eljav04/Desktop/Cybernetics Backend/Home Tasks/Lesson_46_HT/VehicleSpace/VehicleSpace.csproj": {
+              "projectPath": "/Users/eljav04/Desktop/Cybernetics Backend/Home Tasks/Lesson_46_HT/VehicleSpace/VehicleSpace.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.401/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

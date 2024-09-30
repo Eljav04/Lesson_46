@@ -1,0 +1,74 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Lesson_46_HT/1.0.0": {
+        "dependencies": {
+          "AdditionalTools": "1.0.0",
+          "Registration": "1.0.0",
+          "VehicleSpace": "1.0.0"
+        },
+        "runtime": {
+          "Lesson_46_HT.dll": {}
+        }
+      },
+      "AdditionalTools/1.0.0": {
+        "runtime": {
+          "AdditionalTools.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Registration/1.0.0": {
+        "dependencies": {
+          "AdditionalTools": "1.0.0",
+          "VehicleSpace": "1.0.0"
+        },
+        "runtime": {
+          "Registration.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "VehicleSpace/1.0.0": {
+        "dependencies": {
+          "AdditionalTools": "1.0.0"
+        },
+        "runtime": {
+          "VehicleSpace.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Lesson_46_HT/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AdditionalTools/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Registration/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "VehicleSpace/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
